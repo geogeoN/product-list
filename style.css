@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+
+:root {
+    --ff: 'Red Hat Text', sans-serif;
+    --color: #260f08;
+    color: var(--color);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--ff);
+}
+
+.wrapper {
+    margin: 0;
+    padding: 88px 40px;
+    background-color: #fcf8f6;
+}
+
+.container {
+    max-width: 1216px;
+    margin: 0 auto;
+}
+
+.content {
+    display: flex;
+    gap: 32px;
+}
+
+.list-container {
+    flex: 0 0 800px;
+}
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.list__title {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 120%;
+}
+.list__item-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px 24px;
+}
+
+.list__item {
+    flex: 0 0 250.67px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.item__visual {
+    height: 262px;
+    position: relative;
+    text-align: center;
+}
+
+.item__image {
+    width: 250px;
+    height: 240px;
+}
+.item__image img {
+    width: 250px;
+    border-radius: 8px;
+}
+
+.item__button {
+    position: relative;
+    width: 160px;
+    height: 44px;
+    top: -23px;
+    left: 45px;
+    padding: 12px;
+    border: 1px solid #ad8a85;
+    border-radius: 999px;
+    background-color: #fff;
+    font-family: inherit;
+    color: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.item__button:hover {
+    background-color: #ebebeb;
+}
+
+.item__button_text {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.item__describe {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.item__label {
+}
+.item__title {
+}
+.item__cost {
+}
+.cart-container {
+}
+.cart {
+}
+.cart__title {
+}
+.cart__list {
+}
+.cart__image {
+}
+.cart__text {
+}
