@@ -2,6 +2,7 @@
 
 :root {
     --ff: 'Red Hat Text', sans-serif;
+    --fsize: 14px;
     --color: #260f08;
     color: var(--color);
 }
@@ -38,7 +39,8 @@ body {
 }
 
 .list__title {
-    font-size: 40px;
+    --fsize: 40px;
+    font-size: var(--fsize);
     font-weight: bold;
     line-height: 120%;
 }
@@ -108,20 +110,60 @@ body {
 }
 
 .item__label {
+    font-size: var(--fsize);
+    --color: #87635a;
+    color: var(--color);
 }
+
 .item__title {
+    --fsize: 16px;
+    font-size: var(--fsize);
+    font-weight: 600;
 }
+
 .item__cost {
+    --fsize: 16px;
+    font-size: var(--fsize);
+    font-weight: 600;
+    --color: #c73b0f;
+    color: var(--color);
 }
+
 .cart-container {
+    flex: 0 0 384px;
 }
+
 .cart {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
+
 .cart__title {
+    --fsize: 24px;
+    font-size: var(--fsize);
+    font-weight: bold;
+    --color: #c73b0f;
+    color: var(--color); 
 }
+
 .cart__list {
+    padding: 16px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
 }
+
 .cart__image {
+    width: 128px;
+    height: 128px;
 }
+
 .cart__text {
+    font-size: var(--fsize);
+    font-weight: 600;
+    --color: #87635a;
+    color: var(--color);
 }
