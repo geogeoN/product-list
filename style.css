@@ -180,7 +180,7 @@ body {
         flex-direction: column;
     }
     .list-container {
-        height: 1101px;
+        flex: 0 0 1101px;
     }
     .list__item {
         flex: 0 0 213px;
@@ -195,7 +195,7 @@ body {
         left: 26.5px;
     }
     .cart-container {
-        max-height: 299px;
+        flex: 0 0 299px;
     }
 }
 
@@ -211,7 +211,7 @@ body {
         flex-direction: column;
     }
     .list-container {
-        height: 3143px;
+        flex: 0 0 3143px;
     }
     .list__item-row {
         max-height: 3063px;
